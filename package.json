@@ -1,0 +1,23 @@
+{
+  "name": "duet-localforage",
+  "version": "1.0.0",
+  "description": "Use localForage with duet by selectively reading and writing asynchronously across threads when IndexedDB is not available to the worker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colingourlay/duet-localforage.git"
+  },
+  "author": "Colin Gourlay <colin@colin-gourlay.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colingourlay/duet-localforage/issues"
+  },
+  "homepage": "https://github.com/colingourlay/duet-localforage",
+  "dependencies": {
+    "duet-channel": "^1.0.0",
+    "localforage": "^1.4.2"
+  }
+}
